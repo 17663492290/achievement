@@ -1,0 +1,303 @@
+.el-input {
+  font-size: 13px;
+}
+.el-input__inner {
+  height: 30px;
+  line-height: 30px;
+  background-color: transparent;
+}
+.el-button {
+  padding: 8px 12px;
+  font-size: 12px;
+}
+.el-input__icon {
+  line-height: 33px;
+}
+.el-dialog__body {
+  padding: 0px 20px;
+}
+.el-dialog__header {
+  border-bottom: 1px solid #e5e5e5;
+}
+.dBox .el-dialog__wrapper .el-dialog {
+  margin-top: 5vh!important;
+}
+.el-scrollbar__wrap {
+  overflow: auto;
+}
+.el-table th {
+  background: #f3f3f3;
+  color: #656565;
+  font-weight: bold;
+  padding: 3px 0;
+}
+.el-table th div {
+  line-height: 15px;
+}
+.el-table th,
+.el-table td .cell {
+  font-size: 13px;
+}
+.grossProfit .el-table thead tr:first-child th {
+  color: #393E51;
+  font-weight: bold;
+  background: #f3f3f3;
+}
+.grossProfit .el-table thead tr:last-child th {
+  text-align: center;
+  background: #f3f3f3;
+  color: #393E51;
+  font-weight: bold;
+}
+.grossProfit .el-table td,
+.grossProfit .el-table th {
+  padding: 5px 0;
+}
+.grossProfit .el-table--scrollable-x .el-table__body-wrapper {
+  overflow-x: hidden;
+}
+.blue:hover {
+  color: #00f;
+  text-decoration: underline;
+}
+.isActive {
+  color: #ff9900;
+  font-weight: bold;
+}
+/*类目页样式*/
+.bHeader {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  color: #666;
+}
+.bHeader i {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxMjE3NmQ0MC1mYTZiLTQxNmUtYWE5OC03OTY4NGJhMDg3YWQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjM4QURDMjIyQ0UzMTFFODg0RDdEQzYxOERBQ0IxNDkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjM4QURDMjEyQ0UzMTFFODg0RDdEQzYxOERBQ0IxNDkiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpjZGVkNjljMC01MWRkLTRkNDAtYjhmNi1iN2Y2YjY3YzkzNWIiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpmZGNkNWY1YS00MzhlLTExN2EtYTA1Ni1lNWMwMmZkMTBmNDIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7DaNbDAAAAJ1BMVEV/f3+/v7/v7+8/Pz/Pz89fX1/AwMBvb2+fn58wMDBPT0+vr6/////OEme0AAAADXRSTlP///////////////8APegihgAAAFhJREFUeNqszskBwCAIRNEBJG70X29wJQVkDsb/LgY2x6q8blgtKQkHeJttwekjuL0F0UvAtdtdrwxtFEBNYXCgZ8y/nhMEPvkA9h/8BiUDOl7xIxd7BRgAhJ4H6GS+D34AAAAASUVORK5CYII=") no-repeat center;
+}
+.red {
+  color: red;
+}
+.bold {
+  font-weight: 550;
+  font-size: 13px;
+}
+.el-button--danger.is-plain:focus {
+  color: #f56c6c;
+  background: #fef0f0;
+  border-color: #fbc4c4;
+}
+.transfer-tree .el-tree-node > .el-tree-node__children {
+  overflow: visible !important;
+}
+.el-date-editor .el-range-separator {
+  line-height: 25px;
+}
+.el-date-editor .el-range__icon {
+  line-height: 25px;
+}
+.item .el-tabs--border-card {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.item .el-tabs__nav-wrap {
+  margin-bottom: 0;
+}
+.item .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+  color: #fff;
+  background-color: #697ea8;
+  border: 1px solid #697ea8;
+}
+.item .el-tabs--border-card > .el-tabs__header .el-tabs__item {
+  border: 1px solid #697ea8;
+  color: #697ea8;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 7px;
+  padding: 0 10px;
+  margin: 7px 0px 7px 5px;
+  border-radius: 5px;
+}
+.item .el-tabs--border-card > .el-tabs__header {
+  background: #f5f7fb;
+}
+.item .is-left .el-tabs__item {
+  border: 1px solid #697ea8;
+  margin: 10px;
+  height: 26px;
+  line-height: 26px;
+  color: #697ea8;
+  border-radius: 5px;
+}
+.item .is-left .el-tabs__item.is-active {
+  color: #fff;
+  background: #697ea8;
+}
+.itemNo .itemBottom .el-tabs--border-card {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.itemNo .itemBottom .el-tabs__nav-wrap {
+  margin-bottom: 0;
+}
+.itemNo .itemBottom .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+  color: #666666;
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+}
+.itemNo .itemBottom .el-tabs--border-card > .el-tabs__header .el-tabs__item {
+  border: 1px solid #999999;
+  color: #999999;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 7px;
+  padding: 0 10px;
+  margin: 7px 0px 7px 5px;
+  border-radius: 5px;
+  background: #fff;
+}
+.itemNo .itemBottom .el-tabs--border-card > .el-tabs__header {
+  background: #f5f7fb;
+}
+.itemBottom .el-tabs--border-card > .el-tabs__header {
+  border: none;
+}
+.itemNo .is-left .el-tabs__item {
+  border: 1px solid #999999;
+  color: #999999;
+  margin: 10px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 5px;
+}
+.itemNo .is-left .el-tabs__item.is-active {
+  color: #666666;
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+}
+.baseInfo .el-input.is-disabled .el-input__inner {
+  border: none;
+  background: none;
+  color: #333;
+}
+.addressDis .el-input__suffix {
+  display: none;
+}
+.addressDis .el-input.is-disabled .el-input__inner {
+  padding: 0;
+}
+.item .el-tabs--left .el-tabs__active-bar.is-left {
+  display: none;
+}
+.botMargin .el-table__expand-icon {
+  color: #409EFF;
+  font-weight: bold;
+  font-size: 16px;
+}
+.itemBottom .el-tabs.el-tabs--left {
+  min-height: auto !important;
+}
+.feiyao .el-radio__input.is-disabled + span.el-radio__label {
+  color: #606266;
+}
+.tableDiv .el-table .cell {
+  text-align: center;
+}
+.tableDivBox .el-table th {
+  padding: 0;
+  font-weight: 600;
+}
+.tableDivBox .el-table th .cell {
+  font-weight: 600;
+}
+.tableDivBox .el-table td {
+  padding: 6px 0;
+}
+.tableDivBox .el-table tr td .cell {
+  text-align: left;
+  padding-left: 20px;
+}
+.tableDivBox .el-table tr td:nth-child(2) .cell,
+.tableDivBox .el-table tr td:nth-child(9) .cell {
+  text-align: center;
+  padding-left: 0px;
+}
+.el-scrollbar {
+  padding-bottom: 10px;
+}
+.otherBox .el-table td:nth-child(11) {
+  vertical-align: top;
+}
+.dialogBox {
+  position: fixed;
+  top: -53px;
+}
+.tableDiv .el-table .cell {
+  padding-left: 0;
+  padding-right: 0;
+}
+.remindBox .el-table tr th {
+  padding: 5.5px 0;
+}
+.remindBox .el-table tr td {
+  padding: 3px 0;
+}
+.remindBox .el-table tr th .cell,
+.remindBox .el-table tr td .cell {
+  padding-left: 0;
+}
+.remindDialog .el-dialog {
+  margin-top: 8vh!important;
+  max-height: 650px;
+}
+.tableDiv .el-table td:nth-child(5),
+.tableDiv .el-table td:nth-child(6),
+.tableDiv .el-table td:nth-child(7) {
+  padding: 0;
+}
+.correctBox .el-input .el-input__inner {
+  color: #FF0000;
+}
+.input-select .el-input--suffix .el-input__inner {
+  height: 30px !important;
+}
+.el-table .sort-caret.ascending {
+  border-bottom-color: #797979;
+}
+.el-table .sort-caret.descending {
+  border-top-color: #797979;
+}
+.el-button {
+  font-size: 13px;
+}
+.tableBox .el-table tr td {
+  padding: 10px 0;
+}
+.tableBox .el-table tr td:nth-child(6) .cell,
+.tableBox .el-table tr td:nth-child(7) .cell,
+.tableBox .el-table tr td:nth-child(8) .cell,
+.tableBox .el-table tr td:nth-child(10) .cell,
+.inventory .el-table tr td .cell,
+.budgetRecord .el-table tr td .cell {
+  text-align: left;
+  padding-left: 20px;
+}
+.tableBox .el-table tr td .cell,
+.inventory .el-table tr td:nth-child(1) .cell,
+.inventory .el-table tr td:nth-child(2) .cell,
+.budgetRecord .el-table tr td:nth-child(1) .cell,
+.budgetRecord .el-table tr td:nth-child(2) .cell,
+.budgetRecord .el-table tr td:nth-child(7) .cell {
+  text-align: center;
+}
+.inventory .el-table th:first-child .cell,
+.budgetRecord .el-table th:first-child .cell,
+.inventory .el-table td:first-child .cell,
+.budgetRecord .el-table td:first-child .cell {
+  padding-left: 0px;
+}
